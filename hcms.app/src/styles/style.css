@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    min-height: 85vh; 
+    margin: 0; 
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+
+main {
+    margin: 0 auto;
+    padding: 25px 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+
+  footer {
+    font-weight: 500;
+    text-align: center;
+    color: #A3ABBB;
+    margin-top: 40px;
+  }
+
+.header-wrapper{
+    margin: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+.header-navigation-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    list-style-type: none;
+
+}
+
+/* 
+=====================================
+             INFO PAGE
+=====================================
+*/
+
+.main-page{
+  padding: 8px;
+}
+
+.main-page__image{
+  margin: 10px 10px 50px 10px;
+}
+
+.main-page__image img{
+  display: block;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-page__text {
+  color: var(--text);
+  margin-bottom: 30px;
+}
+
+.main-page__text p {
+  margin: 10px 0;
+}
+
+.main-page__link a{
+  padding: 15px 22px;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+/* 
+=====================================
+            ABOUT PAGE
+=====================================
+*/
+
+.about-page {
+  padding: 8px;
+}
+
+.about-page div h2 {
+  color: var(--text-dark-green);
+}
+
+.about-page__what p{
+  margin: 5px 0 30px 0;
+}
+
+.about-page__why p{
+  margin: 5px 0 30px 0;
+}
+
+.about-page__who ol{
+  margin: 5px 0 30px 0;
+}
+
+.about-page__who ol li {
+  margin-left: 15px;
+}
+
+/* 
+=====================================
+            LOGIN PAGE
+=====================================
+*/
+
+.login-page {
+  padding: 8px;
+}
+
+.login-page__header{
+  margin-bottom: 25px;
+}
+
+.login-page__header p{
+  color: var(--text-dark);
+}
+
+.login__action {
+  margin-top: 15px;
+}
+
+.login__action button {
+  padding: 15px 22px;
+}
+
+.login-page a {
+  text-decoration: none;
+  color: var(--text-green);
+  font-weight: 600;
+}
+
+.login__link {
+  margin: 15px 2px;
+  font-size: 14px;
+}
+
+/* 
+=====================================
+            REGISTER PAGE
+=====================================
+*/
+
+.register-page {
+  padding: 8px
+}
+
+.register-page__header{
+  margin-bottom: 25px;
+}
+
+.register-page__header p{
+  color: var(--text-dark);
+}
+
+.input-register h2 {
+  margin-bottom: 25px;
+}
+
+.register__action {
+  margin-top: 15px;
+}
+
+.register__action button {
+  padding: 15px 22px;
+}
+
+.register-page a {
+  text-decoration: none;
+  color: var(--text-green);
+  font-weight: 600;
+}
+
+.register__link {
+  margin: 15px 2px;
+  font-size: 14px;
+}
+
+/* 
+=====================================
+            CEK TANAMAN PAGE
+=====================================
+*/
+
+.cek-tanaman-page {
+  padding: 8px
+}
+
+.cek-tanaman-page__header{
+  margin-bottom: 25px;
+}
+
+.cek-tanaman-page__header p{
+  color: var(--text-dark);
+}
+
+.input-cek-tanaman h2 {
+  margin-bottom: 25px;
+}
+
+.cek-tanaman__action {
+  margin-top: 15px;
+}
+
+.cek-tanaman__action button {
+  padding: 15px 22px;
+}
+
+.cek-tanaman-page a {
+  text-decoration: none;
+  color: var(--text-green);
+  font-weight: 600;
+}
+
+.cek-tanaman__link {
+  margin: 15px 2px;
+  font-size: 14px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+
+  border: 1px solid grey;
+  width: 150px;
+}
+
+.menu > li {
+  margin: 0;
+
+  background-color: white;
+}
+
+.menu > li:hover {
+  background-color: lightgray;
+}
+
+.menu > li > button {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 5px;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+}
